@@ -1,8 +1,8 @@
 import type { BunFile, Serve } from "bun"
 import { SubtitleParser } from "./lib/subtitles.ts"
 
-const framerate = 12
-const multiplier = 2.5
+const framerate = 10
+const multiplier = 3
 const clearCode = "\033[2J\033[3J\033[H"
 const clearEffectsCode = "\033[n0"
 const files: string[] = await Promise.all(
